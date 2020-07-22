@@ -300,7 +300,7 @@
                       <div class="header-nav-dropdown-wrapper clearer">
                         <div class="grid12-3">
                          
-                          <div><a href="product-detail.html" title="Retis lapen casen" class="product-image"><img src="products-images/p6.jpg" alt="Retis lapen casen"></a></div>
+                          <div><a href="product-detail.html" title="Retis lapen casen" class="product-image"><img src="images/shop1.jpg" alt="Retis lapen casen"></a></div>
                          
                            <h4><a href="product-detail.html" title="Retis lapen casen">Retis lapen casen</a></h4>
                            <div class="rating">
@@ -466,7 +466,17 @@
       <div class="row">
         <div class="col-xs-12">
         <div class="page-title">
-<h2>My Wishlist</h2>
+<h2>Dashboard</h2>
+<div class="welcome-msg">
+  <p class="hello"><strong>Hello, john doe!</strong></p>
+  <p>From your My Account Dashboard you have the ability to view a snapshot of your recent account activity and update your account information. Select a link below to view or edit information.</p>
+</div>
+</div>
+<div class="buttons-set buttons-set2">
+
+  <button type="button" title="Add All to Cart" onClick="addAllWItemsToCart()" class="button btn-add"><span>Add Shop</span></button>
+  <button type="button" title="Add All to Cart" onClick="addAllWItemsToCart()" class="button btn-add"><span>Add Products</span></button>
+ 
 </div>
         </div>
       </div>
@@ -482,7 +492,9 @@
             
             <div class="my-wishlist">
               <form id="wishlist-view-form" action="#" method="post">
+                
                 <fieldset>
+                  
                   <input name="form_key" type="hidden" value="EPYwQxF6xoWcjLUr">
 				  <div class="table-responsive">
                   <table class="clean-table linearize-table data-table table-striped" id="wishlist-table">
@@ -490,6 +502,7 @@
                       <tr class="first last">
                         <th class="customer-wishlist-item-image"></th>
                         <th class="customer-wishlist-item-info"></th>
+                        <th class="customer-wishlist-item-price">Product</th>
                         <th class="customer-wishlist-item-quantity">Quantity</th>
                         <th class="customer-wishlist-item-price">Price</th>
                         <th class="customer-wishlist-item-cart"></th>
@@ -498,162 +511,38 @@
                     </thead>
                     <tbody>
                       <tr id="item_32" class="first odd">
-                        <td class="wishlist-cell0 customer-wishlist-item-image"><a class="product-image" href="product-detail.html" title="Slim Fit Casual Shirt"> <img src="products-images/p9.jpg" width="80" height="80" alt="Slim Fit Casual Shirt"> </a></td>
-                        <td class="wishlist-cell1 customer-wishlist-item-info"><h3 class="product-name"><a href="product-detail.html" title="Slim Fit Casual Shirt">Retis lapen casen</a></h3>
+                        <td class="wishlist-cell0 customer-wishlist-item-image"><a class="product-image" href="quickview.html" title="Slim Fit Casual Shirt"> <img src="images/sneaker2.jpg" width="80" height="80" alt="Slim Fit Casual Shirt"> </a></td>
+                        <td class="wishlist-cell1 customer-wishlist-item-info"><h3 class="product-name"><a href="quickview.html" title="Slim Fit Casual Shirt">Retis lapen casen</a></h3>
                           <div class="description std">
                             <div class="inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. </div>
                           </div>
-                          <textarea style="height: 80px; width: 96%;" name="description[32]" rows="3" cols="5" onFocus="focusComment(this)" onBlur="focusComment(this)" title="Comment"></textarea></td>
+                          <!-- <textarea style="height: 80px; width: 96%;" name="description[32]" rows="3" cols="5" onFocus="focusComment(this)" onBlur="focusComment(this)" title="Comment"></textarea></td> -->
                         <td class="wishlist-cell2 customer-wishlist-item-quantity" data-rwd-label="Quantity"><div class="cart-cell">
                             <div class="add-to-cart-alt">
-                              <input type="text" pattern="\d*" class="input-text qty validate-not-negative-number" name="qty[32]" value="1">
+                              <input type="text" pattern="\d*" class="input-text qty validate-not-negative-number" name="qty[50]" value="Sneakers">
                             </div>
                           </div></td>
                         <td class="wishlist-cell3 customer-wishlist-item-price" data-rwd-label="Price"><div class="cart-cell">
-                            <div class="price-box"> <span class="regular-price" id="product-price-2"> <span class="price">$55.00</span> </span> </div>
+                            <div class="price-box"> <span class="regular-price" id="product-price-2"> <span class="price">$5.00 - $55.00 </span> </span> </div>
+                            <input type="text" pattern="\d*" class="input-text qty validate-not-negative-number" name="qty[32]" value="50">
                           </div></td>
                         <td class="wishlist-cell4 customer-wishlist-item-cart"><div class="cart-cell">
-                            <button type="button" title="Add to Cart" onClick="addWItemToCart(32);" class="button btn-cart"><span><span>Add to Cart</span></span></button>
+                          <input type="text" pattern="\d*" class="input-text qty validate-not-negative-number" name="qty[32]" value="50">
                           </div>
                           <div class="edit-wishlist"> <a href="#" title="Edit item" class="btn-edit"><i class="icon-pencil"></i><span class="hidden">Edit</span></a> </div></td>
                         <td class="wishlist-cell5 customer-wishlist-item-remove last"><a href="#" onClick="return confirmRemoveWishlistItem();" title="Clear Cart" class="remove-item"><span><span></span></span></a></td>
                       </tr>
-                      <tr id="item_34" class="even">
-                        <td class="wishlist-cell0 customer-wishlist-item-image"><a class="product-image" href="product-detail.html" title="Vivante Gorgeous Cotton"> <img src="products-images/p4.jpg" width="80" height="80" alt="Vivante Gorgeous Cotton"> </a></td>
-                        <td class="wishlist-cell1 customer-wishlist-item-info"><h3 class="product-name"><a href="product-detail.html" title="Vivante Gorgeous Cotton">Retis lapen casen</a></h3>
-                          <div class="description std">
-                            <div class="inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. </div>
-                          </div>
-                          <textarea style="height: 80px; width: 96%;" name="description[34]" rows="3" cols="5" onFocus="focusComment(this)" onBlur="focusComment(this)" title="Comment"></textarea></td>
-                        <td class="wishlist-cell2 customer-wishlist-item-quantity" data-rwd-label="Quantity"><div class="cart-cell">
-                            <div class="add-to-cart-alt">
-                              <input type="text" pattern="\d*" class="input-text qty validate-not-negative-number" name="qty[34]" value="1">
-                            </div>
-                          </div></td>
-                        <td class="wishlist-cell3 customer-wishlist-item-price" data-rwd-label="Price"><div class="cart-cell">
-                            <div class="price-box"> <span class="regular-price" id="product-price-24"> <span class="price">$99.00</span> </span> </div>
-                          </div></td>
-                        <td class="wishlist-cell4 customer-wishlist-item-cart"><div class="cart-cell">
-                            <button type="button" title="Add to Cart" onClick="addWItemToCart(34);" class="button btn-cart"><span><span>Add to Cart</span></span></button>
-                          </div>
-                          <div class="edit-wishlist"> <a href="#" title="Edit item" class="btn-edit"><i class="icon-pencil"></i><span class="hidden">Edit</span></a> </div></td>
-                        <td class="wishlist-cell5 customer-wishlist-item-remove last"><a href="#" onClick="return confirmRemoveWishlistItem();" title="Clear Cart" class="remove-item"><span><span></span></span></a></td>
-                      </tr>
-                      <tr id="item_65" class="odd">
-                        <td class="wishlist-cell0 customer-wishlist-item-image"><a class="product-image" href="product-detail.html" title="Kalia Bumblebee Black"> <img src="products-images/p3.jpg" width="80" height="80" alt="Kalia Bumblebee Black"> </a></td>
-                        <td class="wishlist-cell1 customer-wishlist-item-info"><h3 class="product-name"><a href="product-detail.html" title="Kalia Bumblebee Black">Retis lapen casen</a></h3>
-                          <div class="description std">
-                            <div class="inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. </div>
-                          </div>
-                          <textarea style="height: 80px; width: 96%;" name="description[65]" rows="3" cols="5" onFocus="focusComment(this)" onBlur="focusComment(this)" title="Comment"></textarea></td>
-                        <td class="wishlist-cell2 customer-wishlist-item-quantity" data-rwd-label="Quantity"><div class="cart-cell">
-                            <div class="add-to-cart-alt">
-                              <input type="text" pattern="\d*" class="input-text qty validate-not-negative-number" name="qty[65]" value="2">
-                            </div>
-                          </div></td>
-                        <td class="wishlist-cell3 customer-wishlist-item-price" data-rwd-label="Price"><div class="cart-cell">
-                            <div class="price-box"> <span class="regular-price" id="product-price-30"> <span class="price">$99.00</span> </span> </div>
-                          </div></td>
-                        <td class="wishlist-cell4 customer-wishlist-item-cart"><div class="cart-cell">
-                            <button type="button" title="Add to Cart" onClick="addWItemToCart(65);" class="button btn-cart"><span><span>Add to Cart</span></span></button>
-                          </div>
-                          <div class="edit-wishlist"> <a href="#" title="Edit item" class="btn-edit"><i class="icon-pencil"></i><span class="hidden">Edit</span></a> </div></td>
-                        <td class="wishlist-cell5 customer-wishlist-item-remove last"><a href="#" onClick="return confirmRemoveWishlistItem();" title="Clear Cart" class="remove-item"><span><span></span></span></a></td>
-                      </tr>
-                      <tr id="item_66" class="even">
-                        <td class="wishlist-cell0 customer-wishlist-item-image"><a class="product-image" href="product-detail.html" title="Micromax X101i"> <img src="products-images/p8.jpg" width="80" height="80" alt="Micromax X101i"> </a></td>
-                        <td class="wishlist-cell1 customer-wishlist-item-info"><h3 class="product-name"><a href="product-detail.html" title="Micromax X101i">Retis lapen casen</a></h3>
-                          <div class="description std">
-                            <div class="inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. </div>
-                          </div>
-                          <textarea style="height: 80px; width: 96%;" name="description[66]" rows="3" cols="5" onFocus="focusComment(this)" onBlur="focusComment(this)" title="Comment"></textarea></td>
-                        <td class="wishlist-cell2 customer-wishlist-item-quantity" data-rwd-label="Quantity"><div class="cart-cell">
-                            <div class="add-to-cart-alt">
-                              <input type="text" pattern="\d*" class="input-text qty validate-not-negative-number" name="qty[66]" value="1">
-                            </div>
-                          </div></td>
-                        <td class="wishlist-cell3 customer-wishlist-item-price" data-rwd-label="Price"><div class="cart-cell">
-                            <div class="price-box"> <span class="regular-price" id="product-price-15"> <span class="price">$79.00</span> </span> </div>
-                          </div></td>
-                        <td class="wishlist-cell4 customer-wishlist-item-cart"><div class="cart-cell">
-                            <button type="button" title="Add to Cart" onClick="addWItemToCart(66);" class="button btn-cart"><span><span>Add to Cart</span></span></button>
-                          </div>
-                          <div class="edit-wishlist"> <a href="#" title="Edit item" class="btn-edit"><i class="icon-pencil"></i><span class="hidden">Edit</span></a> </div></td>
-                        <td class="wishlist-cell5 customer-wishlist-item-remove last"><a href="#" onClick="return confirmRemoveWishlistItem();" title="Clear Cart" class="remove-item"><span><span></span></span></a></td>
-                      </tr>
-                      <tr id="item_69" class="odd">
-                        <td class="wishlist-cell0 customer-wishlist-item-image"><a class="product-image" href="product-detail.html" title="Softwear Women&#39;s Designer"> <img src="products-images/p5.jpg" width="80" height="80" alt="Softwear Women&#39;s Designer"> </a></td>
-                        <td class="wishlist-cell1 customer-wishlist-item-info"><h3 class="product-name"><a href="product-detail.html" title="Softwear Women&#39;s Designer">Retis lapen casen</a></h3>
-                          <div class="description std">
-                            <div class="inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. </div>
-                          </div>
-                          <textarea style="height: 80px; width: 96%;" name="description[69]" rows="3" cols="5" onFocus="focusComment(this)" onBlur="focusComment(this)" title="Comment"></textarea></td>
-                        <td class="wishlist-cell2 customer-wishlist-item-quantity" data-rwd-label="Quantity"><div class="cart-cell">
-                            <div class="add-to-cart-alt">
-                              <input type="text" pattern="\d*" class="input-text qty validate-not-negative-number" name="qty[69]" value="1">
-                            </div>
-                          </div>
-						  </td>
-                        <td class="wishlist-cell3 customer-wishlist-item-price" data-rwd-label="Price"><div class="cart-cell">
-                            <div class="price-box"> <span class="regular-price" id="product-price-39"> <span class="price">$99.00</span> </span> </div>
-                          </div></td>
-                        <td class="wishlist-cell4 customer-wishlist-item-cart"><div class="cart-cell">
-                            <button type="button" title="Add to Cart" onClick="addWItemToCart(69);" class="button btn-cart"><span><span>Add to Cart</span></span></button>
-                          </div>
-                          <div class="edit-wishlist"> <a href="#" title="Edit item" class="btn-edit"><i class="icon-pencil"></i><span class="hidden">Edit</span></a> </div></td>
-                        <td class="wishlist-cell5 customer-wishlist-item-remove last"><a href="#" class="remove-item"><span><span></span></span></a></td>
-                      </tr>
-                      <tr id="item_88" class="even">
-                        <td class="wishlist-cell0 customer-wishlist-item-image"><a class="product-image" href="product-detail.html" title="Softwear Women&#39;s Designer"> <img src="products-images/p3.jpg" width="80" height="80" alt="Softwear Women&#39;s Designer"> </a></td>
-                        <td class="wishlist-cell1 customer-wishlist-item-info"><h3 class="product-name"><a href="product-detail.html" title="Softwear Women&#39;s Designer">Softwear Women's Designer</a></h3>
-                          <div class="description std">
-                            <div class="inner">Made from Cotton and Lycra, this Leggings features Full Length, Designer printed , Casual wear, Normal Machine Wash.</div>
-                          </div>
-                          <textarea style="height: 80px; width: 96%;" name="description[88]" rows="3" cols="5" onFocus="focusComment(this)" onBlur="focusComment(this)" title="Comment"></textarea></td>
-                        <td class="wishlist-cell2 customer-wishlist-item-quantity" data-rwd-label="Quantity"><div class="cart-cell">
-                            <div class="add-to-cart-alt">
-                              <input type="text" pattern="\d*" class="input-text qty validate-not-negative-number" name="qty[88]" value="1">
-                            </div>
-                          </div></td>
-                        <td class="wishlist-cell3 customer-wishlist-item-price" data-rwd-label="Price"><div class="cart-cell">
-                            <div class="price-box"> <span class="regular-price" id="product-price-109"> <span class="price">$99.00</span> </span> </div>
-                          </div></td>
-                        <td class="wishlist-cell4 customer-wishlist-item-cart"><div class="cart-cell">
-                            <button type="button" title="Add to Cart" onClick="addWItemToCart(88);" class="button btn-cart"><span><span>Add to Cart</span></span></button>
-                          </div>
-                          <div class="edit-wishlist"> <a href="#" title="Edit item" class="btn-edit"><i class="icon-pencil"></i><span class="hidden">Edit</span></a> </div></td>
-                        <td class="wishlist-cell5 customer-wishlist-item-remove last"><a href="#" onClick="return confirmRemoveWishlistItem();" title="Clear Cart" class="remove-item"><span><span></span></span></a></td>
-                      </tr>
-                      <tr id="item_89" class="last odd">
-                        <td class="wishlist-cell0 customer-wishlist-item-image"><a class="product-image" href="product-detail.html" title="Slim Fit Casual Shirt"> <img src="products-images/p2.jpg" width="80" height="80" alt="Slim Fit Casual Shirt"> </a></td>
-                        <td class="wishlist-cell1 customer-wishlist-item-info"><h3 class="product-name"><a href="product-detail.html" title="Slim Fit Casual Shirt">Slim Fit Casual Shirt</a></h3>
-                          <div class="description std">
-                            <div class="inner">Blue colour self design casual shirt, made with 100% cotton, slim fit, mandarin collar with a full buttoned chest placket, single chest patch pocket, full sleeve with buttoned cuffs, brand embroidery at the left side of the chest.</div>
-                          </div>
-                          <textarea style="height: 80px; width: 96%;" name="description[89]" rows="3" cols="5" onFocus="focusComment(this)" onBlur="focusComment(this)" title="Comment"></textarea></td>
-                        <td class="wishlist-cell2 customer-wishlist-item-quantity" data-rwd-label="Quantity"><div class="cart-cell">
-                            <div class="add-to-cart-alt">
-                              <input type="text" pattern="\d*" class="input-text qty validate-not-negative-number" name="qty[89]" value="1">
-                            </div>
-                          </div></td>
-                        <td class="wishlist-cell3 customer-wishlist-item-price" data-rwd-label="Price"><div class="cart-cell">
-                            <div class="price-box"> <span class="regular-price" id="product-price-108"> <span class="price">$55.00</span> </span> </div>
-                          </div></td>
-                        <td class="wishlist-cell4 customer-wishlist-item-cart"><div class="cart-cell">
-                            <button type="button" title="Add to Cart" onClick="addWItemToCart(89);" class="button btn-cart"><span><span>Add to Cart</span></span></button>
-                          </div>
-                          <div class="edit-wishlist"> <a href="#" title="Edit item" class="btn-edit"><i class="icon-pencil"></i><span class="hidden">Edit</span></a> </div></td>
-                        <td class="wishlist-cell5 customer-wishlist-item-remove last"><a href="#" onClick="return confirmRemoveWishlistItem();" title="Clear Cart" class="remove-item"><span><span></span></span></a></td>
-                      </tr>
+                     
+                     
+                     
+                   
+                      
+                   
                     </tbody>
                   </table>
 				  </div>
                  
-                  <div class="buttons-set buttons-set2">
-                    <button type="submit" name="save_and_share" title="Share Wishlist" class="button btn-share"><span>Share Wishlist</span></button>
-                    <button type="button" title="Add All to Cart" onClick="addAllWItemsToCart()" class="button btn-add"><span>Add All to Cart</span></button>
-                    <button type="submit" name="do" title="Update Wishlist" class="button btn-update"><span>Update Wishlist</span></button>
-                  </div>
+                 
                 </fieldset>
               </form>
               <form id="wishlist-allcart-form" action="#" method="post">
@@ -675,16 +564,13 @@
             <div class="block-content">
               <ul>
                 <li><a href="#"><span> Account Dashboard</span></a></li>
-                <li><a href="#"><span> Account Information</span></a></li>
-                <li><a href="#"><span> Address Book</span></a></li>
-                <li><a href="#"><span> My Orders</span></a></li>
-                <li><a href="#"><span> Billing Agreements</span></a></li>
-                <li><a href="#"><span> Recurring Profiles</span></a></li>
-                <li><a href="#"><span> My Product Reviews</span></a></li>
-                <li class="current"><a>My Wishlist</a></li>
-                <li><a href="#"><span> My Applications</span></a></li>
-                <li><a href="#"><span> Newsletter Subscriptions</span></a></li>
-                <li class="last"><a href="#"><span> My Downloadable Products</span></a></li>
+                <li><a href="#"><span>Promotion</span></a></li>
+                <li><a href="#"><span>Advert</span></a></li>
+                <li><a href="#"><span> Track Credit</span></a></li>
+                <li><a href="#"><span> Track Sales</span></a></li>
+                <li><a href="#"><span> Profit Calculator</span></a></li>
+                <li class="current"><a>Profile Setting</a></li>
+                
               </ul>
             </div>
             <!--block-content--> 

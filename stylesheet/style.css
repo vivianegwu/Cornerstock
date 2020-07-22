@@ -39,7 +39,7 @@ small {
 *{outline:none}
 
 *::selection {
-  background-color: #fee14b;
+  background-color: #f47925;
   color:#333
 }
 
@@ -94,7 +94,7 @@ small {
 
 /* Header Start */ 
 header {
-    background-color: #fdd922;
+    background-color: #f47925;
     /* box-shadow: 0px 3px 8px -4px rgba(0,0,0,0.15); */
     height: 68px;
     top: 0;
@@ -137,6 +137,36 @@ header {
 	right: 0;
 	top: 0;
 }
+.fs-1 {
+	font-size: 1rem;
+  }
+  
+  .fs-2 {
+	font-size: 2rem;
+  }
+  
+  .fs-3 {
+	font-size: 3rem;
+  }
+  
+  .fs-4 {
+	font-size: 4rem;
+  }
+  
+  .bblr {
+	border-bottom-left-radius: 100px !important;
+  }
+  
+  .border-3px {
+	border-width: 3px !important;
+  }
+  
+  .mp {
+	position: absolute;
+	top: 3.25rem;
+	left: 50%;
+	transform: translate(-50%, 0%);
+  }
 .search-bar {
 	position: relative;
 	width: 0%;
@@ -222,7 +252,20 @@ header {
 	
 
 }
-.GlobalNavSearch {background-color:#fff;-webkit-appearance: none;-moz-appearance: none;appearance: none;border-radius: 300px;outline: none;padding: 0 35px;border: none;height: 34px;font-weight: 500;-moz-osx-font-smoothing: grayscale;-webkit-font-smoothing: antialiased;color: #333;box-sizing: border-box;font-size: 14px;width: 100%;display: block;-webkit-transition: width 0.2s ease-out;transition: width 0.2s ease-out;}
+
+.overlay {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+  }
+.searchLength{
+	width: 1200px !important;
+
+}
+.GlobalNavSearch { margin-top:13%; background-color:#f5f5f5;-webkit-appearance: none;-moz-appearance: none;appearance: none;border-radius: 300px;outline: none;padding: 0 35px;border: none;height: 42px;font-weight: 500;-moz-osx-font-smoothing: grayscale;-webkit-font-smoothing: antialiased;color: #333;box-sizing: border-box;font-size: 14px;width: 100%;display: block;-webkit-transition: width 0.2s ease-out;transition: width 0.2s ease-out;}
 	
 .GlobalNavSearch-searchIcon {
     background-position: center;
@@ -234,7 +277,8 @@ header {
     left: 4px;
     top: 3px;
     opacity: .5;
-    background:url(../images/search.png) no-repeat top left;
+	background:url(../images/search.png) no-repeat top left;
+	margin-top: 13%;
 }	
 
 .navbar-form .search-btn .glyphicon {line-height: 45px!important; vertical-align:middle}
@@ -3481,7 +3525,7 @@ ul.pdt-list li.item a img.image-hover {
     padding-bottom: 15px;
 }
 
-.products-grid .item .item-inner .item-info .info-inner .item-content .item-price {background:#fdd922;position:absolute;right:0px;padding:10px 15px;color:#fff;font-family: 'Raleway', sans-serif;top: 0px;}
+.products-grid .item .item-inner .item-info .info-inner .item-content .item-price {background:;position:absolute;right:0px;padding:10px 15px;color:#fff;font-family: 'Raleway', sans-serif;top: 0px;}
 
 .products-grid .item .item-inner .item-info .info-inner .item-content .no-rating, .products-grid .item .item-inner .item-info .info-inner .item-content .ratings {
 margin: 0 0;
@@ -4820,7 +4864,7 @@ margin: 0 0;
 #best-seller .owl-item .item .item-inner .item-info .info-inner .item-content .no-rating .rating-links, #best-seller-slider .owl-item .item .item-inner .item-info .info-inner .item-content .ratings .rating-links {
 	display: none;
 }
-#best-seller .owl-item .item .item-inner .item-info .info-inner .item-content .item-price {background: #fdd922;position:absolute;right:0px;padding:10px 15px;color:#333;font-family: 'Raleway', sans-serif;top: 0px;}
+#best-seller .owl-item .item .item-inner .item-info .info-inner .item-content .item-price {background: #f47925;position:absolute;right:0px;padding:10px 15px;color:#333;font-family: 'Raleway', sans-serif;top: 0px;}
 #best-seller .owl-item .item .item-inner .item-info .info-inner .item-title {
 	margin-bottom: 7px;
 	padding-top: 20px;
@@ -4866,7 +4910,7 @@ margin: 0 0;
 
 .add_cart {margin-top:0px}
 .btn-cart {padding:0px!important; }
-.btn-cart:before {content:'\f07a';font-family: FontAwesome;background: #fdd922;color:#fff;font-size:16px;padding:11px 15px;display:inline-block;}
+.btn-cart:before {content:'\f07a';font-family: FontAwesome;background: #f47925;color:#fff;font-size:16px;padding:11px 15px;display:inline-block;}
 .btn-cart span {display:none; padding:0px 15px}
 #best-seller-slider .owl-item .item:hover .btn-cart {
 	-webkit-transition: all 0.4s cubic-bezier(0.8, 0, 0, 1);
@@ -5252,7 +5296,7 @@ margin: 0 0;
 .latest-blog .post-date {
 	height:60px;
 	width:60px;
-	background: #fdd922;
+	background: #f47925;
 	position:absolute;
 	display:inline-block;
 	color: #333;
@@ -8414,7 +8458,7 @@ a.button.detail-bnt span {
 	border-bottom: 1px #ddd dotted;
 }
 .product-view .product-shop .add-to-box .btn-cart {
-	background: #fdd922;
+	background: #f47925;
 	color: #333333;
 	font-size: 18px;
 	text-shadow: none;
@@ -8423,7 +8467,7 @@ a.button.detail-bnt span {
 	margin-top: 0px;
 	font-weight: normal;
 	margin-left: 10px;
-	border: 2px #fdd922 solid;
+	border: 2px #f47925 solid;
 	border-radius: 999px;
 	-webkit-transition: all 0.3s cubic-bezier(0.8, 0, 0, 1);
 	-o-transition: all 0.3s cubic-bezier(0.8, 0, 0, 1);
@@ -8693,7 +8737,7 @@ a.button.detail-bnt span {
 	margin-left: 10px;
 }
 .custom button.items-count {
-	background-color: #fdd922;
+	background-color: #f47925;
 	border:none;
 	transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
 	color: #333;
@@ -10444,7 +10488,7 @@ footer .newsletter-row {
 	overflow: hidden;
 	width: 100%;
 	padding: 20px 0px;
-	background: #fee14b;
+	background: #f47925;
 }
 
 footer .newsletter-row .col1 {text-align:right}
@@ -10938,7 +10982,7 @@ button.button:hover {
 	-o-transition: all 0.4s cubic-bezier(0.8, 0, 0, 1);
 	transition: all 0.4s cubic-bezier(0.8, 0, 0, 1);
 	box-shadow: inset 0 -45px 0 0 #333333;
-	border: 1px solid #fdd922;
+	border: 1px solid #f47925;
 	color: #fff;
 }
 button.button span span {
@@ -12112,7 +12156,7 @@ button.button span span {
 	background:#f2f2f2
 }
 .newsletter-sign-box .subscribe {
-	background: none repeat scroll 0 0 #fdd922;
+	background: none repeat scroll 0 0 #f47925;
 	border-radius: 0;
 	color: #333;
 	display:block;
@@ -12599,7 +12643,7 @@ select#shipping-address-select {
 /*	Testimonials */
 
 .testimonials-section {
-  background: #fee14b;
+  background: #f47925;
   padding:35px 45px;
   text-align:center;
   min-height:325px;
