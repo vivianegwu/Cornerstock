@@ -8,6 +8,6 @@ const chatHandlers =()=>{
 
     chat.style.cursor = 'pointer';
     chat.onclick = function() {
-        sendMessage(+2348034791103, 'Cornerstock I need money')
+        sendMessage(+233553737191, 'Cornerstock is here...')
     };
 }
